@@ -1,0 +1,210 @@
+p{
+ font-size: 0.5cm;
+}
+
+h1{
+    color:rgb(51, 23, 23);
+    font-family: "Sawaradi Mincho";
+    text-align:center;
+    /*position: fixed;top:0px;*/
+    z-index: 60;background-color:white;
+    text-align: center;
+    width: 100%;
+    height: 0px;
+
+
+}
+
+#short_title{
+    display: none;
+}
+
+h2{
+    background-color: rgb(255, 177, 203);
+    font-size: 20px;
+    color: rgb(80, 67, 67);
+    height: 28px;
+    width: 100%;
+    text-align: center;
+    text-align: left; 
+    border-left: solid  6px blue; 
+    border-radius:0 10px 10px 0;  
+
+}
+
+#fixed{
+    z-index: 100;
+    /*position: fixed;top:0px;
+    /*background-color: white;
+    */
+    width: 100%;
+    height: 109px;
+    z-index: 90;
+    text-align: center; 
+    
+}
+
+#top_a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(127, 127, 246);
+    
+}
+
+
+#top_p{
+    position: relative;top:86px;
+}
+
+#mein{
+    /*
+    overflow: auto;
+    */    position: relative;top:100px;
+}
+
+
+#bottom{
+    display:none;
+
+}
+
+#img{
+    display:none;
+}
+
+/*
+.logo{
+    float: right;
+    position: relative;top: 0;
+    position: absolute;right: 0;
+    margin: auto;
+}
+*/
+
+.memus_div{
+    position: relative;top:10px;
+    border-bottom-style: solid; 
+    border-bottom-color: black;
+    border-bottom-width: 100%;
+    padding: 10px;
+}
+
+.memus_m:hover{
+    color: blue;
+    border-bottom: solid 2px rgb(170, 170, 170);
+
+}
+/*
+.memus{
+    display: inline-block;
+    padding: 0.5cm;
+    text-decoration: none;
+    background-color:blue;
+    color: #fff;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    text-decoration: none;
+    z-index: 100;
+    position: relative;top:50px;
+    
+}
+*/
+/*
+.memus_div{
+
+}
+*/
+
+#top_table{
+    height:30px;
+    position: relative;top:700px;
+}
+
+#memus_beta{
+    height: 25px;
+    position: absolute; top:60px;
+}
+
+#raspberry_pi_picture{
+    display: none;
+    position: relative;right: 10px;
+}
+
+
+
+#mein{
+    position: absolute;top :160px;
+
+}
+
+
+.under_bar{
+    background-color: rgb(87, 87, 87);
+    text-decoration: none;
+    position: absolute;bottom: 0px;
+    z-index: 0;
+    width: 100%;
+}
+
+.under_bar_a:link{
+    color:whitesmoke;
+}
+
+.under_bar_a:visited{
+    color: rgb(149, 149, 149);
+}
+
+.under_bar_a:active{
+    color: rgb(75, 75, 75)
+}
+
+.under_bar_a:hover{
+    color: rgb(209, 209, 209);
+}
+
+/*このしたは各chapterのcss*/
+
+a{
+    text-decoration: none;
+    
+}
+
+
+a:visited{
+    color: black;
+}
+
+.chapter{
+    position: absolute;top:90px;
+}
+
+.chapter_p{
+    position: relative;top:110px;
+}
+
+.AI_picture{
+    position: relative;
+    top:150px;
+}
+
+.thanks_by {
+    font-size: 17px;
+}
+
+#daime{
+    font-size: 13px;
+}
+
+#top_p_and{
+    text-align:center;
+}
+
+#intro_underbar{
+    position: relative ;
+    bottom: 0;
+    width: 100%;
+    /*height: 100px;*/
+}
+
+img.roboto{
+  float:left;
+}

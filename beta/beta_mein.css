@@ -1,0 +1,23 @@
+h1{
+    color:rgb(51, 23, 23);
+    font-family: "Sawaradi Mincho";
+    text-align:center;
+    font-size: 30px;
+    
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+table{
+    width:100%;
+    height:80px;
+}
+
+tb{
+    width: 25%;
+    height: 100px;
+}

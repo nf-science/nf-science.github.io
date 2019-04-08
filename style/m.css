@@ -1,0 +1,141 @@
+/*#body{
+    overflow :hidden; 
+}
+*/
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#long_title{
+    display: none;
+}
+/*
+.memus_div{
+    
+}
+*/
+
+a{
+    text-decoration: none;
+    color:gray;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(128, 128, 243);
+    
+}
+
+#empty{
+    height: 10px;
+}
+
+/*
+.memus{
+    display: inline-block;
+    padding:10px;
+    text-decoration: none;
+    background-color:blue;
+    color: #fff;
+    border-bottom: solid 4px #627295;
+    border-radius: 2px;
+    text-decoration: none;
+    z-index: 100;
+    position: relative;top:1px;
+    
+    /*とりまサイズとかはアイコンは決めていないかたあとできめる。それまでdisplay:none;*/
+/*    
+}
+*/
+
+#img{
+    height: 45px;
+    width:  45px;
+    position: absolute;top:20px;
+}
+
+#top_p{
+    position: relative;top:0px;
+    font-size: 20px;
+    display:none;
+}
+
+h2{
+   background-color: rgb(255, 177, 203);
+   font-size: 25px;
+  /* width: 100%; */
+   border-left: solid  6px blue; 
+   border-radius:0 10px 10px 0;  
+}
+
+.see_more{
+    font-size: 21px;
+}
+
+.AI_picture{
+    height: 100%;
+    width: 100%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.under_bar{
+    background-color: rgb(87,87,87);
+    text-decoration: none;
+    /*display: none;
+    */
+}
+
+.under_bar_a:link{
+    color:whitesmoke;
+}
+
+.under_bar_a:visited{
+    color:rgb(149, 149,149)
+
+}
+
+.under_bar_a:active{
+    color:rgb(75,75,75)
+}
+
+.under_bar_a:hover{
+    color:rgb(209, 209, 209)
+}
+
+.m_under_bar{
+    background-color: rgb(87,87,87);
+}
+
+.under_bar_a:link{
+    color:whitesmoke;
+}
+
+.m_under_bar_a:visited{
+    color:rgb(149, 149,149)
+
+}
+
+.m_under_bar_a:active{
+    color:rgb(75,75,75)
+}
+
+.m_under_bar_a:hover{
+    color:rgb(209, 209, 209)
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.chapter{
+    position: relative;top:0px;
+}
+
+#top_p_and{
+    text-align:center;
+}
