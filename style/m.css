@@ -139,3 +139,16 @@ a{
 #top_p_and{
     text-align:center;
 }
+
+img{
+    max-width : 100% ;
+    height : auto ;
+    }
+
+iframe {
+     width : 100% ; 
+    }
+
+body {
+     -webkit-text-size-adjust : 100% ; 
+    }
