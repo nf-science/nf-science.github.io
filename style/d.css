@@ -24,11 +24,11 @@ h2{
     font-size: 20px;
     color: rgb(80, 67, 67);
     height: 28px;
-    width: 100%;
+    width: 96vw;
     text-align: center;
     text-align: left; 
-    border-left: solid  6px blue; 
-    border-radius:0 10px 10px 0;  
+    border-left: solid  8px blue; 
+    border-radius:0 4vw 4vw 0;  
 
 }
 
