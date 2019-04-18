@@ -85,8 +85,15 @@ p{
 .under_bar{
     background-color: rgb(87,87,87);
     text-decoration: none;
-    /*display: none;
-    */
+    display: none;
+    
+}
+
+.under_bar_m {
+    background-color: rgb(87,87,87);
+    color:white;
+    font-size: 22px;
+
 }
 
 .under_bar_a:link{
