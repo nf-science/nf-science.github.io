@@ -7,7 +7,8 @@
     <link rel="./img/logo.png" type="icon">
     <link rel="./img" type="icon">
 
-    <script type="text/javascript" src="./head.js"></script>
+   <!--Scriptは下にあります -->
+
 <meta name="google-site-verification" content="Ff7R3v7ELYFh1ZXnKQ-7E7X_W4ut74Xwvm3INkIW0Rk" />
     <link rel="stylesheet" type="text/css" href="./style/d.css" media="screen and (min-width:1000px) and (min-width:480px)"><!--For desktop users.-->
     <link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.-->
@@ -17,13 +18,13 @@
 
     <meta charset="utf-8">
 
-    <meta name="theme-color" content="#f28c8c">                           
+    <meta name="theme-color" content="#f28c8c"> 
     <meta name="description" content="日大藤沢 科学部(サイエンス部)のwebページです.すべて部員でつくりました.">
-    <title>== 日藤 科学部 ==  </title>
+    <title>==  日藤 公式 科学部　==  </title>
     
     <meta name="google-site-verification" content="nt0_liB1RpSPMSzQ6lEyg716wMfg3d0QsrkExEhTQ5k" />
 
-    <!--もし本文中に説明があればGoogleが自動で表示してくれる -->
+    <!--もし本文中に説明があればGoogleが自動で表示してくれる -->    
     <!--校　サイエンス部の公式HPです。ソースコードも自分たちでかきました。 ぜひ見てください。">
     <metadisprition="日本大学藤沢高等学校・中学
         -->                                                                         
@@ -31,36 +32,27 @@
 </head>
 
 <body id="body">      
-<div id="fixed">           
+<div id="fixed" onload="Write_memus">           
 
 
 <h1><span id="long_title">日本大学藤沢高等学校・中学校 科学部<br> 電機・物理班 公式HP</span><span id="short_title">日藤科学部</span><h1></h1>
 
-
-
 </div>
 
-
-
-
 </div>
+<div class="memus_div">
+    <a class="memus" id="home_link" href="./index.html" data-wpel-link="internal">ホーム</a>
+    <a class="memus" id="content_link" href="./content.html" data-wpel-link="internal">活動内容</a>
+    <a class="memus" id="intro_link" href="./intro.html" data-wpel-link="internal">ロボット紹介</a>
+    <a class="memus" id="records_link" href="./recoed.html" data-wpel-link="internal">戦績</a>
+    <a class="memus" id="enter_link" href="./enter.html" data-wpel-link="internal">入部案内</a>
+
+  </div>
 
 
-<!--
-<p id="top_p">このサイトの準備(プログラミングなど)はすべてサイエンス部 電機・物理班が行いました。</p>
--->
-<!--できればサイト内検索もできるようにしたい しかし、無駄に重くしないこと -->
 
-            <div class="memus_div">
-                    <a class="memus_m" id="home_link_m" href="./index.html" data-wpel-link="internal">ホーム</a>
-                    <!--<a class="memu" id="content_link" href="./content.html">活動内容</a>--> 
-                    <a class="memus_m" id="content_link_m" href="./content.html" data-wpel-link="internal">活動内容</a>
-                    <a class="memus_m" id="intro_link_m" href="./intro.html" data-wpel-link="internal">ロボット紹介</a>
-                    <a class="memus_m" id="records_link_m" href="./recoed.html" data-wpel-link="internal">活動実績</a>
-                    <a class="memus_m" id="enter_link_m" href="./enter.html" data-wpel-link="internal">入部案内</a>
-                    <a class="memus_m" id="links_link" href="./links.html" data-wpel-link="internal">リンク集</a>
-                  
-                  </div> 
+
+
             </div>
     </div>
 
@@ -72,7 +64,7 @@
         <div id="topic">
             <span class="h2"><h2>お知らせ</h2></span>
 
-            <p><strong>電機・物理部は科学部(サイエンス部)になります。</strong></p>
+            <p><strong>日本大学藤沢高等学校・中学校　電機・物理部は科学部(サイエンス部)になります。</strong></p>
             <p>来年度から化学部と統合し、名前も新たにします。
                 <br><br>最終更新2月 7日
             </p>
@@ -90,6 +82,7 @@
         <a href="./tipic.html">&gt;もっと見る</a>
         --><!--imgはcssのdisplay noneで非表示にしてある-->
     　　</div>
+
        
         <div id="records">
             <span class="h2"><h2>活動実績</h2></span>
@@ -107,37 +100,38 @@
             <span class="see_more"><a href="./content.html">&gt;もっと見る</a></span>
         </div>
 
-
+<div id="rap_under_bar">
     
-    <div class="under_bar">
-        <table>
-         <tr>
-            <td><a class="under_bar_a" id="under_home_a" href="./index.html"><p>ホーム&nbsp;&nbsp;</p></a></td>
-            <td><a class="under_bar_a" id="under_contet_a" href="./content.html"><p>活動内容&nbsp;&nbsp;</p></a></td>
-            <td><a class="under_bar_a" id="under_intro_a" href="./intro.html"><p>ロボット紹介&nbsp;&nbsp;</p></a></td>
-            <td><a class="under_bar_a" id="under_reconrds_a" href="recoed.html"><p>活動実績&nbsp;&nbsp;</p></a></td>
-            <td><a class="under_bar_a" id="under_enter_a" href="./enter.html"><p>入部案内&nbsp;&nbsp;</p></a></td>
-            <td><a class="under_bar_a" id="under_links_a" href="links.html"><p>リンク集&nbsp;&nbsp;</p></a></td>
-            <!--<td><a class="under_bar_a" id="under_thanks_a" href="./thanks.html"><p>謝辞</p></a></td>-->
-           <!-- <td><a class="under_bar_a" id="under_feedback_a" href="./feedback.html"><p>         |フィードバック</p></a></td>-->
-         </tr>  
-        </table>
+    <div class="under_bar" onload="under_bar" id="under_bar">
+        <div class="under_bar" id="index_underbar">
+            <table>
+             <tr>
+                <td><a class="under_bar_a" id="under_home_a" href="./index.html"><p>ホーム&nbsp;&nbsp;</p></a></td>
+                <td><a class="under_bar_a" id="under_contet_a" href="./content.html"><p>活動内容&nbsp;&nbsp;</p></a></td>
+                <td><a class="under_bar_a" id="under_intro_a" href="./intro.html"><p>ロボット紹介&nbsp;&nbsp;</p></a></td>
+                <td><a class="under_bar_a" id="under_reconrds_a" href="recoed.html"><p>活動実績&nbsp;&nbsp;</p></a></td>
+                <td><a class="under_bar_a" id="under_enter_a" href="./enter.html"><p>入部案内&nbsp;&nbsp;</p></a></td>
+                <td><a class="under_bar_a" id="under_links_a" href="./links.html"><p>リンク集&nbsp;&nbsp;</p></a></td>
+                
+             </tr>
+            </table>
+        </div>
     </div>
-<!--
-    <div class="m_under_bar">
-        <table>
-            <tr><td><a class="m_under_a" id="m_under_home" href="index.html"><p>ホーム</p></td></tr>
-            
+
+</div>
+<div class="under_bar_m">
+    <table>
+        <tr><td><a href="./index.html" class="under_bar_m_a">ホーム</a></td></tr>
+        <tr><td><a href="./content.html" class="under_bar_m_a">活動内容</a></td></tr>
+        <tr><td><a href="./intro.html" class="under_bar_m_a">ロボット紹介</a></td></tr>
+        <tr><td><a href="./recoed.html" class="under_bar_m_a">活動実績</a></td></tr>
+        <tr><td><a href="./enter.html" class="under_bar_m_a">入部案内</a></td></tr>
+        <tr><td><a href="./links.html" class="under_bar_m_a">リンク集</a></td></tr>
+    </table>
+</div>
 
 
-        </table>
-    </div>
--->
-    <!--This underbar is disshpwed by css that display:none;-->
-<!--This is undisplay by css "display-none;"-->
-
-<!--このソースコードのなかに無駄な>があるからそれをさがす -->
-
+    <script type="text/javascript" src="./js.js"></script>
 </body>
 </html>
 
