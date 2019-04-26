@@ -151,16 +151,7 @@ h2{
 }
 
 .under_bar_a:link{
-    color:whitesmoke;
-}
-
-.under_bar_a:visited{
-    color: rgb(149, 149, 149);
-}
-
-.under_bar_a:active{
-    color: rgb(75, 75, 75)
-}
+    color:rgb(209, 209, 209)}
 
 .under_bar_a:hover{
     color: rgb(209, 209, 209);
