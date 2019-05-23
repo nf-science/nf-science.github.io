@@ -1,0 +1,35 @@
+/*p{
+    line-height: 35px;
+    background: -webkit-linear-gradient(bottom, #000 1px, rgba(255, 255, 255, 0) 1px) left top / 1px 35px;
+    background: linear-gradient(to top, #000 1px, rgba(255, 255, 255, 0) 1px) left top / 1px 35px;
+  }
+  */
+
+  /* font-size = 16px, line-height = 1.5 の場合 */
+#need_underbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    background: repeating-linear-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,0) 23px, #ccc 23px, #ccc 24px);
+  }
+
+  h2{
+      font-size:32px;
+  }
+   
+ p {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size:16px;
+
+    
+ }
+
+
+
+img{
+    height:315px;
+
+}
+  
