@@ -12,6 +12,7 @@
     font-size: 16px;
     line-height: 1.5;
     background: repeating-linear-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,0) 23px, #ccc 23px, #ccc 24px);
+
   }
 
   h2{
@@ -22,6 +23,7 @@
     margin-top: 0;
     margin-bottom: 24px;
     font-size:16px;
+    float:r
 
     
  }
@@ -29,10 +31,15 @@
 
 
 img{
-    height:315px;
+    height:304px;
 
 }
-  
+
+iframe{
+  height:304px;
+  width:560px;
+}
+
 #test{
   position: relative;top:107px;
 
@@ -41,4 +48,12 @@ img{
 
 #test >h2{
   position: relative;top:30px;
+}
+
+#test >.chemistry_code{
+  position: relative;top:110px;
+}
+
+#right_p{
+  float: right;
 }
