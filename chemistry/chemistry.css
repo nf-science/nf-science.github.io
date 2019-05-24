@@ -7,7 +7,7 @@
 
   /* font-size = 16px, line-height = 1.5 の場合 */
 #need_underbar {
-    padding-top: 0;
+  
     padding-bottom: 0;
     font-size: 16px;
     line-height: 1.5;
