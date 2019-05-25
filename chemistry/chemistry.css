@@ -6,25 +6,40 @@
   */
 
   /* font-size = 16px, line-height = 1.5 の場合 */
+  
 #need_underbar {
   
-    padding-bottom: 0;
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,0) 97%,
+      #ddd 97%,
+      #ddd 100%
+    );
+  background-size:100% 2em;
+  line-height:2;
+}
+p{
+  margin-bottom:2em;
+  
+/*    padding-bottom: 0;
     font-size: 16px;
     line-height: 1.5;
     background: repeating-linear-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,0) 23px, #ccc 23px, #ccc 24px);
-
+*/
   }
 
   h2{
       font-size:32px;
   }
-   
+  /* 
  p {
     margin-top: 0;
     margin-bottom: 24px;
     font-size:16px;    
  }
-
+*/
 
 
 img{
@@ -57,4 +72,10 @@ iframe{
 
 .column_p{
   float: right;
+}
+
+@media print{
+  #paper{
+    display:none;
+  }
 }
