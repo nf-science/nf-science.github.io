@@ -82,6 +82,10 @@ p{
     font-size: 20px;
 }
 
+iframe{
+    width:400;
+}
+
 .under_bar{
     background-color: rgb(87,87,87);
     text-decoration: none;

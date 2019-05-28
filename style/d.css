@@ -129,7 +129,9 @@ h2{
     position: relative;right: 10px;
 }
 
-
+iframe{
+    width: 600px;
+}
 
 #mein{
     position: absolute;top :160px;
@@ -163,7 +165,6 @@ a{
     text-decoration: none;
     
 }
-
 
 a:visited{
     color: black;
