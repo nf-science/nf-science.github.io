@@ -159,15 +159,15 @@ iframe{
     color: rgb(209, 209, 209);
 }
 
+.under_bar_a:visited{
+    color: rgb(209, 209, 209);
+}
+
 /*このしたは各chapterのcss*/
 
 a{
     text-decoration: none;
     
-}
-
-a:visited{
-    color: black;
 }
 
 .chapter{
