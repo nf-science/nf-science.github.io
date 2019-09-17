@@ -83,12 +83,17 @@ h2{
 */
 
 .memus_div{
-    position: relative;top:10px;
-  / border-bottom-style: solid; 
+    position: relative;top:31px;
+    font-size:20px;
+  /* border-bottom-style: solid; 
     border-bottom-color: white;
     border-bottom-width: 100%;
     padding: 10px;
+*/
+}
 
+h1,h2,h3,h4,p,a{
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .memus_m:hover{
@@ -137,7 +142,7 @@ iframe{
 }
 
 #mein{
-    position: absolute;top :160px;
+    position: absolute;top :120px;
 
 }
 
