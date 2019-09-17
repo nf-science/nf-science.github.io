@@ -84,10 +84,11 @@ h2{
 
 .memus_div{
     position: relative;top:10px;
-    border-bottom-style: solid; 
-    border-bottom-color: black;
+  / border-bottom-style: solid; 
+    border-bottom-color: white;
     border-bottom-width: 100%;
     padding: 10px;
+
 }
 
 .memus_m:hover{
