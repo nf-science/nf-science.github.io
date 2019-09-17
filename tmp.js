@@ -1,7 +1,7 @@
 console.log('hello')
 
 function tmp_top() {
-    var html_top_write ='<div id="fixed"><div id="h1"><h1><span id="long_title">日本大学藤沢高等学校・中学校 科学部</span><span id="short_title">日藤科学部</span><h1></h1></div><div class="memus_div"><a class="memus" id="home_link" href="./index.html" data-wpel-link="internal">ホーム</a><a class="memus" id="content_link" href="./content.html" data-wpel-link="internal">活動内容</a><a class="memus" id="intro_link" href="./intro.html" data-wpel-link="internal">ロボット紹介</a><a class="memus" id="records_link" href="./recoed.html" data-wpel-link="internal">活動実績</a><a class="memus" id="enter_link" href="./enter.html" data-wpel-link="internal">入部案内</a></div></div>';
+    var html_top_write ='<div id="fixed"><div id="h1"><h1><span id="long_title">日本大学藤沢高等学校・中学校 科学部</span><span id="short_title">日藤科学部</span><h1></h1></div><div class="memus_div"><a class="memus" id="home_link" href="./index.html" data-wpel-link="internal">ホーム</a><a class="memus" id="content_link" href="./content.html" data-wpel-link="internal">活動内容</a><a class="memus" id="intro_link" href="./intro.html" data-wpel-link="internal">ロボット紹介</a><a class="memus" id="records_link" href="./recoed.html" data-wpel-link="internal">活動実績</a><a class="memus" id="enter_link" href="./enter.html" data-wpel-link="internal">入部案内</a></div></div><style>@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap")</style> '
 
    document.write(html_top_write);
 
