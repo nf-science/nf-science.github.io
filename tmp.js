@@ -7,7 +7,7 @@ function head() {
 }
 
 function tmp_top() {
-    var html_top_write ='<div id="fixed"><div id="h1"><h1><span id="long_title">日本大学藤沢高等学校・中学校 科学部</span><span id="short_title">日藤科学部</span><h1></h1></div><div class="memus_div"><a class="memus" id="home_link" href="./index.html" data-wpel-link="internal">&thinsp;ホーム&thinsp; </a><a class="memus" id="content_link" href="./content.html" data-wpel-link="internal">&thinsp; 活動内容&thinsp; </a><a class="memus" id="intro_link" href="./intro.html" data-wpel-link="internal">&thinsp; ロボット紹介&thinsp; </a><a class="memus" id="records_link" href="./recoed.html" data-wpel-link="internal">&thinsp;活動実績&thinsp;</a><a class="memus" id="enter_link" href="./enter.html" data-wpel-link="internal">&thinsp; 入部案内&thinsp; </a></div></div><style>@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap")</style> '
+    var html_top_write ='<div id="fixed"><div id="h1"><h1><span id="long_title">日本大学藤沢高等学校・中学校 科学部</span><span id="short_title">日藤科学部</span><h1></h1></div><div class="memus_div"><a class="memus" id="home_link" href="./index.html">&thinsp;ホーム&thinsp; </a><a class="memus" id="content_link" href="./content.html">&thinsp; 活動内容&thinsp; </a><a class="memus" id="intro_link" href="./intro.html">&thinsp; ロボット紹介&thinsp; </a><a class="memus" id="records_link" href="./recoed.html">&thinsp;活動実績&thinsp;</a><a class="memus" id="enter_link" href="./enter.html">&thinsp; 入部案内&thinsp; </a></div></div><style>@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap")</style> '
 
    document.write(html_top_write);
 
