@@ -145,3 +145,12 @@ iframe {
 body {
      -webkit-text-size-adjust : 100% ; 
     }
+
+html{
+    height:100%; 
+      
+}
+       
+body{
+    height:100%;
+      }
