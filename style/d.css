@@ -56,14 +56,14 @@ h2{
 #top_p{
     position: relative;top:86px;
 }
-
+/*
 #mein{
     /*
     overflow: auto;
-    */    position: relative;top:100px;
+        position: relative;top:100px;
 }
 
-
+*/
 #bottom{
     display:none;
 
@@ -131,19 +131,11 @@ a{
     position: relative;top:700px;
 }
 
-#memus_beta{
-    height: 25px;
-    position: absolute; top:60px;
-}
-
 #raspberry_pi_picture{
     display: none;
     position: relative;right: 10px;
 }
 
-iframe{
-    width: 600px;
-}
 
 #mein{
     position: absolute;top :120px;
@@ -195,9 +187,6 @@ a{
     top:150px;
 }
 
-.thanks_by {
-    font-size: 17px;
-}
 
 #daime{
     font-size: 13px;
