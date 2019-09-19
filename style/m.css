@@ -73,11 +73,6 @@ h2{
     font-size: 21px;
 }
 
-.AI_picture{
-    height: 100%;
-    width: 100%;
-}
-
 h1,h2,h3,h4,p,a{
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -153,4 +148,4 @@ html{
        
 body{
     height:100%;
-      }
+}
