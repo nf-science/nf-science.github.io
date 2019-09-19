@@ -99,7 +99,11 @@ h1,h2,h3,h4,p,a{
 .memus_m:hover{
     color: blue;
     border-bottom: solid 2px rgb(170, 170, 170);
+}
 
+a{
+    text-decoration: none;
+    color:gray;
 }
 /*
 .memus{
