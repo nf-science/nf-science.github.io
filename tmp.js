@@ -1,6 +1,6 @@
 
 function head() {
-    var html_head_write = '   <meta charset="utf-8">    <link rel="stylesheet" type="text/css" href="./style/d.css" media="screen and (min-width:1000px) and (min-width:480px)"><!--For desktop users.--><link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.--> <meta name="theme-color" content="#f28c8c"> ';
+    var html_head_write = '   <meta charset="utf-8">    <link rel="stylesheet" type="text/css" href="./style/d.css" media="screen and (min-width:1000px) and (min-width:480px)"><!--For desktop users.--><link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.--> <meta name="theme-color" content="rgb(255, 177, 203)"> ';
 
     document.write (html_head_write);
 
