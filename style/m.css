@@ -65,7 +65,7 @@ h2{
    background-color: rgb(255, 177, 203);
    font-size: 25px;
   /* width: 100%; */
-   border-left: solid  6px blue; 
+   border-left: solid  6px rgb(48, 138, 255); 
    border-radius:0 10px 10px 0;  
 }
 

@@ -29,7 +29,7 @@ h2{
     width: 99vw;
     text-align: center;
     text-align: left; 
-    border-left: solid  8px blue; 
+    border-left: solid  8px rgb(48, 138, 255); 
     border-radius:0 2vw 2vw 0;  
 
 }
