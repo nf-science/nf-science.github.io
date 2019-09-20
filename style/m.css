@@ -69,6 +69,13 @@ h2{
    border-radius:0 10px 10px 0;  
 }
 
+h3{
+    background-color: rgb(255, 177, 203);
+    border-left: solid  6px blue; 
+    border-radius:0 10px 10px 0;  
+
+}
+
 .see_more{
     font-size: 21px;
 }
