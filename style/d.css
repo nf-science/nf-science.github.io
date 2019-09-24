@@ -178,11 +178,11 @@ a{
 .chapter{
     position: absolute;top:90px;
 }
-
+/*
 .chapter_p{
     position: relative;top:110px;
 }
-
+*/
 .AI_picture{
     position: relative;
     top:150px;
