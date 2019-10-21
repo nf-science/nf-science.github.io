@@ -1,6 +1,6 @@
 
 function head() {
-    var html_head_write = '   <meta charset="utf-8">    <link rel="stylesheet" type="text/css" href=" ./style/d.css" media="screen and (min-width:1000px) and (min-width:480px)"><!--For desktop users.--><link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.--> <meta name="theme-color" content="rgb(255, 177, 203)"> ';
+    var html_head_write = '   <meta charset="utf-8">    <link rel="stylesheet" type="text/css" href=" ./style/d.css" media="screen and (min-width:1000px) and (min-width:480px)"><!--For desktop users.--><link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.--> <meta name="theme-color" content="rgb(255, 177, 203)"> <!-- for metarial css design kit by google  --><link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet"><!-- Google metarial web design kit js by google --> <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> ';
 
     document.write (html_head_write);
 
