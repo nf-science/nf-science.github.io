@@ -2,6 +2,9 @@
     overflow :hidden; 
 }
 */
+
+@import "@material/card/mdc-card";
+
 h1{
     font-size: 30px;
     text-align: center;

@@ -1,6 +1,6 @@
 
 function head() {
-    var html_head_write = '   <meta charset="utf-8">    <link rel="stylesheet" type="text/css" href="./style/d.css" media="screen and (min-width:1000px) and (min-width:480px)"><!--For desktop users.--><link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.--> <meta name="theme-color" content="rgb(255, 177, 203)"> <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"><script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>';
+    var html_head_write = '   <meta charset="utf-8">    <link rel="stylesheet" type="text/css" href="./style/d.css" media="screen and (min-width:1000px) and (min-width:480px)"><!--For desktop users.--><link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.--> <meta name="theme-color" content="rgb(255, 177, 203)"> <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"><script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1.0">';
 
     document.write (html_head_write);
 
