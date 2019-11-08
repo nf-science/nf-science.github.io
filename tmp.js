@@ -4,7 +4,7 @@ function head() {
 
     document.write (html_head_write);
 
-}
+}   
 
 
 function tmp_top() {
