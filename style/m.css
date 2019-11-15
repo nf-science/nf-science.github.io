@@ -21,6 +21,11 @@ h1{
 */
 
 a{
+    color:rgb(63, 63, 63);
+    text-decoration:underline;text-decoration-color: rgb(44, 43, 43);
+}
+
+under_bar_m_a{
     text-decoration: none;
     color:gray;
 }
@@ -159,4 +164,9 @@ html{
        
 body{
     height:100%;
+}
+
+.contest_name{
+    font-style:italic;
+    color:rgb(63, 63, 63);
 }
