@@ -213,3 +213,8 @@ a{
 img.roboto{
   float:left;
 }
+
+.contest_name{
+    font-style:italic;
+    color:rgb(63, 63, 63);
+}
