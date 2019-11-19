@@ -57,17 +57,13 @@ p{
     font-size: 23px;
 }
 
-.under_bar{
-    background-color: rgb(87,87,87);
-    text-decoration: none;
-    display: none;
-    
-}
+
 
 .under_bar_m {
     background-color: rgb(29, 29, 29);
     font-size: 22px;
-
+    margin:0px;
+    padding:0px;
 }
 
 .under_bar_m_a{
@@ -80,11 +76,13 @@ p{
 }
 
 
-
+/*
 .m_under_bar{
+    /*
     background-color: rgb(87,87,87);
-}
-
+*//*
+background-color:pink;}
+*/
 
 
 a{
@@ -123,8 +121,8 @@ body{
     font-style:italic;
     color:rgb(63, 63, 63);
 }
-/*
-a#enter_link.memus{
 
+body{
+    margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
+    padding:0px;
 }
-*
