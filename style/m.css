@@ -121,15 +121,46 @@ body{
 
 .contest_name{
     font-style:italic;
-    color:rgb(63, 63, 63);
+    color:rgb(14, 11, 11);
 }
 
 body{
     margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
     padding:0px;
 }
+/*
 
 .menus_div{
     display: flex;
     justify-content: space-between;
 }
+
+.memus{
+    display:flex;
+       display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+   -webkit-flex-wrap:wrap;
+   -ms-flex-wrap:wrap;
+   flex-wrap:wrap;
+   justify-content: space-between;
+}
+
+header>a{
+    display:flex;
+    display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+-webkit-flex-wrap:wrap;
+-ms-flex-wrap:wrap;
+flex-wrap:wrap;
+    display:flex;
+    justify-content:space-between;
+}
+
+*/
+
