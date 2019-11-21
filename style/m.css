@@ -131,6 +131,15 @@ body{
 /*
 
 .menus_div{
+    display:flex;
+    display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+-webkit-flex-wrap:wrap;
+-ms-flex-wrap:wrap;
+flex-wrap:wrap;
     display: flex;
     justify-content: space-between;
 }
@@ -164,3 +173,7 @@ flex-wrap:wrap;
 
 */
 
+.memus{
+    font-size:25px;
+    padding:4px;
+}
