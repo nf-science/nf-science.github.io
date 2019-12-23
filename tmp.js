@@ -23,7 +23,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" tpye="text/css" href="./style/both.css">
        <link rel="stylesheet" type="text/css" href=" ./style/d.css" media="screen and (min-width:1000px) and (min-width:480px)"><!--For desktop users.-->
        <link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.-->
-        <meta name="theme-color" content="rgb(255, 177, 203)"> `;
+        <meta name="theme-color" content="rgb(255, 177, 203)">
+    
+        <link href="./lib/Google-meterial.css" rel="stylesheet">
+        <script src="./lib/Google-meterial.js"></script>
+
+        `;
 
     document.write (html_head_write);
 
