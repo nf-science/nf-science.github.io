@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('../fonts/Noto_Sans_JP/NotoSansJP-Medium.otf') format("opentype");
+ }
+
+ a{
+    text-decoration: none;
+    
+}
+
+body{
+    margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
+    padding:0px;
+}
+
+h2{
+    background-color: rgb(255, 177, 203);
+    border-left: solid  8px rgb(48, 138, 255);   
+    text-align: left ; 
+
+}
