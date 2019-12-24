@@ -1,13 +1,14 @@
 #long_title,.under_bar_a{
     display: none;
-}
-
-.see_more{
-    font-size: 21px;
+    /* パソコン向けでモバイル向けじゃないから非表示にするもの*/
 }
 
 p{
     font-size: 23px;
+}
+
+.see_more{
+    font-size: 21px;
 }
 
 .under_bar_m {
@@ -21,14 +22,14 @@ p{
     color: rgb(226, 226, 226);
 }
 
-img{
-    max-width : 100% ;
-    height : auto ;
-    }
-
 .memus{
     font-size:25px;
     padding:2px;
     margin: 2px;
     position: relative;top:21px;
 }
+
+img{
+    max-width : 100% ;
+    height : auto ;
+    }
