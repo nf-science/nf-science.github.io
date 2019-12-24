@@ -13,6 +13,7 @@ h1,h2,p,a,li{
 body{
     margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
     padding:0px;
+    width:100vw;
 }
 
 h1{
