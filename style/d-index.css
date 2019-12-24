@@ -1,225 +1,33 @@
-@font-face {
-    font-family: 'Noto Sans JP';
-    src: url('../fonts/Noto_Sans_JP/NotoSansJP-Medium.otf') format("opentype");
- }
 
-
-p{
- font-size: 0.5cm;
- margin:10px;
-}
-
-
-
-h1{
-    color:rgb(51, 23, 23);
-    font-family: "Sawaradi Mincho";
-    text-align:center;
-    /*position: fixed;top:0px;*/
-    z-index: 60;background-color:white;
-    text-align: center;
-    width: 100%;
-    height: 0px;
-
-
-}
-
-#short_title{
+#short_title,.under_bar_m{
     display: none;
+    /* モバイル向けでパソコン向けじゃないから非表示*/
 }
 
 h2{
-    background-color: rgb(255, 177, 203);
     font-size: 20px;
-    color: rgb(80, 67, 67);
     height: 28px;
-    width: 99vw;
-    text-align: center;
-    text-align: left; 
-    border-left: solid  8px rgb(48, 138, 255); 
-    border-radius:0 2vw 2vw 0;  
-
 }
 
-#fixed{
-    z-index: 100;
-    /*position: fixed;top:0px;
-    /*background-color: white;
-    */
-    width: 100%;
-    height: 109px;
-    z-index: 90;
-    text-align: center; 
-    
+p{
+ font-size: 0.5cm;
 }
-
-#top_a:hover{
-    text-decoration: underline;
-    text-decoration-color: rgb(127, 127, 246);
-    
-}
-
-
-#top_p{
-    position: relative;top:86px;
-}
-/*
-#mein{
-    /*
-    overflow: auto;
-        position: relative;top:100px;
-}
-
-*/
-#bottom{
-    display:none;
-
-}
-
-#img{
-    display:none;
-}
-
-/*
-.logo{
-    float: right;
-    position: relative;top: 0;
-    position: absolute;right: 0;
-    margin: auto;
-}
-*/
 
 .memus_div{
     position: relative;top:31px;
-    font-size:20px;
-  /* border-bottom-style: solid; 
-    border-bottom-color: white;
-    border-bottom-width: 100%;
-    padding: 10px;
-*/
+     font-size:20px;
+    text-align: center;
+    margin:2vh;
+    padding:2vh;
 }
-
-h1,h2,h3,h4,p,a{
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
-.memus_m:hover{
-    color: blue;
-    border-bottom: solid 2px rgb(170, 170, 170);
-}
-
-a{
-    text-decoration: none;
-    color:gray;
-}
-/*
-.memus{
-    display: inline-block;
-    padding: 0.5cm;
-    text-decoration: none;
-    background-color:blue;
-    color: #fff;
-    border-bottom: solid 4px #627295;
-    border-radius: 3px;
-    text-decoration: none;
-    z-index: 100;
-    position: relative;top:50px;
-    
-}
-*/
-/*
-.memus_div{
-
-}
-*/
-
-#top_table{
-    height:30px;
-    position: relative;top:700px;
-}
-
-#raspberry_pi_picture{
-    display: none;
-    position: relative;right: 10px;
-}
-
-
-#mein{
-    position: absolute;top :120px;
-
-}
-
 
 .under_bar{
     background-color: rgb(87, 87, 87);
-    text-decoration: none;
     position: relative;bottom: 0px;
-    z-index: 0;
     width: 100%;
     margin: 50px 0px 0px;
-   
 }
 
-.under_bar_m{
-    display: none;
-}
-
-.under_bar_a:link{
-    color:rgb(209, 209, 209)}
-
-.under_bar_a:hover{
-    color: rgb(209, 209, 209);
-}
-
-.under_bar_a:visited{
-    color: rgb(209, 209, 209);
-}
-
-/*このしたは各chapterのcss*/
-
-a{
-    text-decoration: none;
-    
-}
-
-.chapter{
-    position: absolute;top:90px;
-}
-/*
-.chapter_p{
-    position: relative;top:110px;
-}
-*/
-.AI_picture{
-    position: relative;
-    top:150px;
-}
-
-
-#daime{
-    font-size: 13px;
-}
-
-#top_p_and{
-    text-align:center;
-}
-
-#intro_underbar{
-    position: relative ;
-    bottom: 0;
-    width: 100%;
-    /*height: 100px;*/
-}
-
-img.roboto{
-  float:left;
-}
-
-.contest_name{
-    font-style:italic;
-    color:rgb(63, 63, 63);
-}
-
-body{
-    margin:0px;
+.under_bar>table>tbody>tr>td>a>p{
+    color: rgb(200, 200, 200);
 }

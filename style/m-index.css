@@ -1,66 +1,15 @@
-@font-face {
-   font-family: 'Noto Sans JP';
-   src: url('../fonts/Noto_Sans_JP/NotoSansJP-Medium.otf') format("opentype");
-}
-
-h1{
-    font-size: 30px;
-    text-align: center;
-}
-
-#long_title{
+#long_title,.under_bar_a{
     display: none;
+    /* パソコン向けでモバイル向けじゃないから非表示にするもの*/
 }
 
-a{
-    color:rgb(63, 63, 63);
-    text-decoration:underline;text-decoration-color: rgb(44, 43, 43);
-}
-
-under_bar_m_a{
-    text-decoration: none;
-    color:gray;
-}
-
-
-#img{
-    height: 45px;
-    width:  45px;
-    position: absolute;top:20px;
-}
-
-
-h2{
-   background-color: rgb(255, 177, 203);
-   font-size: 25px;
-  /* width: 100%; */
-   border-left: solid  6px rgb(48, 138, 255); 
-   border-radius:0 10px 10px 0;  
-}
-
-h3{
-    background-color: rgb(255, 177, 203);
-    border-left: solid  6px blue; 
-    border-radius:0 10px 10px 0;  
-
+p{
+    font-size: 23px;
 }
 
 .see_more{
     font-size: 21px;
 }
-
-h1,h2,h3,h4,p,a,li{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight:10px;
-   
-}
-
-p{
-    font-size: 23px;
-    margin:10px;
-}
-
-
 
 .under_bar_m {
     background-color: rgb(29, 29, 29);
@@ -70,112 +19,12 @@ p{
 }
 
 .under_bar_m_a{
-    color: rgb(189, 189, 189);
+    color: rgb(226, 226, 226);
 }
-
-
-.under_bar_a{
-    color:whitesmoke;
-    display:none;
-}
-
-
-/*
-.m_under_bar{
-    /*
-    background-color: rgb(87,87,87);
-*//*
-background-color:pink;}
-*/
-
-
-a{
-    text-decoration: none;
-
-}
-
-.chapter{
-    position: relative;top:0px;
-}
-
-#top_p_and{
-    text-align:center;
-}
-
-img{
-    max-width : 100% ;
-    height : auto ;
-    }
-
-
-body {
-     -webkit-text-size-adjust : 100% ; 
-    }
-
-html{
-    height:100%; 
-      
-}
-       
-body{
-    height:100%;
-}
-
-.contest_name{
-    font-style:italic;
-    color:rgb(14, 11, 11);
-}
-
-body{
-    margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
-    padding:0px;
-}
-/*
-
-.menus_div{
-    display:flex;
-    display: -webkit-flex;
-display: -moz-flex;
-display: -ms-flex;
-display: -o-flex;
-display: flex;
--webkit-flex-wrap:wrap;
--ms-flex-wrap:wrap;
-flex-wrap:wrap;
-    display: flex;
-    justify-content: space-between;
-}
-
-.memus{
-    display:flex;
-       display: -webkit-flex;
-   display: -moz-flex;
-   display: -ms-flex;
-   display: -o-flex;
-   display: flex;
-   -webkit-flex-wrap:wrap;
-   -ms-flex-wrap:wrap;
-   flex-wrap:wrap;
-   justify-content: space-between;
-}
-
-header>a{
-    display:flex;
-    display: -webkit-flex;
-display: -moz-flex;
-display: -ms-flex;
-display: -o-flex;
-display: flex;
--webkit-flex-wrap:wrap;
--ms-flex-wrap:wrap;
-flex-wrap:wrap;
-    display:flex;
-    justify-content:space-between;
-}
-
-*/
 
 .memus{
     font-size:25px;
-    padding:4px;
+    padding:2px;
+    margin: 2px;
+    position: relative;top:21px;
 }
