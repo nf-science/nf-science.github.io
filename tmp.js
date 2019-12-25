@@ -30,7 +30,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         `;
 
-    document.write (html_head_write);
+    document.writeln (html_head_write);
 
 }   
 
@@ -57,7 +57,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header> 
     `
 
-   document.write(html_top_write);
+    document.writeln(html_top_write);
 
 }
 
@@ -85,5 +85,6 @@ function tmp_under() {
         </table>
                     </footer>`;
 
-    document.write(html_under_write)
+    document.writeln(html_under_write);
+    document.close;
 }
