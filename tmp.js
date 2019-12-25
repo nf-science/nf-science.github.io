@@ -24,10 +24,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        <link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.-->
 
         <meta name="theme-color" content="rgb(255, 177, 203)">
-    
-        <link href="./lib/Google-meterial.css" rel="stylesheet">
-        <script src="./lib/Google-meterial.js"></script>
-
         `;
 
     document.writeln (html_head_write);
