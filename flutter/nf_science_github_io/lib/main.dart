@@ -2,15 +2,44 @@ import 'package:flutter/material.dart';
 
 //void main() => runApp(MyApp());
 void main() {
-  runApp(
-    Center(
-      child: Text(
-        'Hello World,Hello flutter',
-        textDirection: TextDirection.ltr,
-      ),
+  var container = Container(
+      height: 100.0,
+      width: double.infinity,
+      color: Colors.blue,
+      padding: EdgeInsets.all(10.0),
+      margin: EdgeInsets.all(10.0),
+      //child: ...
+    );
+    runApp(container);
+  /*Text(
+    'I love Flutter',
+    style: TextStyle(
+      fontSize: 32.0,
+      fontWeight: FontWeight.bold,
+      fontStyle: FontStyle.normal,
+      letterSpacing: 4.0,
     ),
-  );
+  );*/
 }
+
+/*
+@overrride
+Widget build(BuildContext context){
+  return MaterialApp(
+    titile:'Welcome to flutter',
+    title: 'Flutter layouy learning',
+    home:Scaffold(
+      appBar: AppBar(
+        titile:'Welcome to flutter',
+        title: 'Flutter layouy learning',
+      ),
+      body:Center(
+        child: Text('Hello Wotld!!'),
+      )
+    )
+  )
+}
+*/
 
 /*
 class MyApp extends StatelessWidget {
