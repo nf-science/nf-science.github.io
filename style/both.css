@@ -2,7 +2,6 @@
    font-family: 'Noto Sans JP';
     src: url('../fonts/Noto_Sans_JP/NotoSansJP-Medium.otf') format("opentype");
  }
-
  
 h1,h2,p,a,li{
     font-family: 'Noto Sans JP', sans-serif;

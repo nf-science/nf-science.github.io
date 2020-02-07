@@ -20,7 +20,7 @@
     <!-- End Google Tag Manager -->
     
 <meta name="google-site-verification" content="Ff7R3v7ELYFh1ZXnKQ-7E7X_W4ut74Xwvm3INkIW0Rk" />
-    <link rel="stylesheet" tpye="text/css" href="./style/both.css">
+    <link rel="stylesheet" typee="text/css" href="./style/both.css">
     <link rel="stylesheet" type="text/css" href="./style/d.css" media="screen and (min-width:1000px) and (min-width:480px)"><!--For desktop users.-->
     <link rel="stylesheet" type="text/css" href="./style/m.css" media="screen and (max-width:999px)"><!--For mobile users.-->
 <meta name="msvalidate.01" content="E23ABFC88E23BCE15C2982DC4C4DA8FA" />
@@ -39,9 +39,20 @@
     <!--fabric-->
     <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" />
 
-
-
-
+<!--pwa's service workder-->
+<script>
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/sw.js').then(function(registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function(err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    });
+  }
+  </script>
     </head>
 <body class="ms-Fabric" dir="ltr">      
 <!-- Google Tag Manager (noscript) -->
