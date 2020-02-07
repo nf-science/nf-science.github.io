@@ -1,0 +1,87 @@
+h1,h2,p,a,li{
+     font-family: 'Noto Sans JP', sans-serif;
+     font-weight:10px;
+    
+ }
+ 
+ body{
+     margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
+     padding:0px;
+     width:100vw;
+ }
+ 
+ h1{
+     text-align:center;
+     background-color:white;
+     width: 100%;
+     height: 0px;
+     font-size:40px;
+ }
+ 
+ h2{
+     background-color: rgb(255, 177, 203);
+     border-left: solid  1vw rgb(48, 138, 255);   
+     text-align: left ; 
+     border-radius:0 2vw 2vw 0; 
+     width: 97vw;
+ }
+ 
+ p{
+     margin:10px;
+ }
+ 
+  a{
+     text-decoration: none;
+     color:gray;
+     
+ }
+ 
+ .contest_name{
+     font-style:italic;
+     color:rgb(63, 63, 63);
+ }
+ 
+ .memus{
+     font-size:25px;
+     padding:4px;
+ }
+
+
+
+
+ #long_title,.under_bar_a{
+    display: none;
+    /* パソコン向けでモバイル向けじゃないから非表示にするもの*/
+}
+
+p{
+    font-size: 23px;
+}
+
+.see_more{
+    font-size: 21px;
+}
+
+.under_bar_m {
+    background-color: rgb(29, 29, 29);
+    font-size: 22px;
+    margin:0px;
+    padding:0px;
+    width:100vw;
+}
+
+.under_bar_m_a{
+    color: rgb(226, 226, 226);
+}
+
+.memus{
+    font-size:25px;
+    padding:2px;
+    margin: 2px;
+    position: relative;top:21px;
+}
+
+img{
+    max-width : 100% ;
+    height : auto ;
+    }
