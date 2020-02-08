@@ -7,7 +7,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-149132463-2', { 'optimize_id': 'GTM-WXSC6ZQ'});
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,11 +31,14 @@
     
     <meta name="google-site-verification" content="nt0_liB1RpSPMSzQ6lEyg716wMfg3d0QsrkExEhTQ5k" />
 
+  <!--pwa manifest load-->
+  <link rel="manifest" href="./manifest.json">
+
 <!--pwa's service workder-->
 <script>
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      navigator.serviceWorker.register('./sw.js').then(function(registration) {
         // Registration was successful
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
       }, function(err) {
@@ -46,6 +48,17 @@ if ('serviceWorker' in navigator) {
     });
   }
   </script>
+  <!--Load service worker(sw.js)-->
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').then(registration => {
+      console.log('ServiceWorker registration successful.');
+    }).catch(err => {
+      console.log('ServiceWorker registration failed.');
+    });
+  }
+</script>
+
     </head>
 <body class="ms-Fabric" dir="ltr">      
 <!-- Google Tag Manager (noscript) -->
@@ -113,7 +126,6 @@ if ('serviceWorker' in navigator) {
         </table>
         </footer><!--
 -->
-<script src="./animation.js"></script>
 
 </body>
 <!-- Copy Right 日本大学藤沢高等学校・中学校　科学部 2019 All right reserve. 

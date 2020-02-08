@@ -1,9 +1,11 @@
-// Cache name
-const CACHE_NAME = 'pwa-sample-caches-v1';
+const CACHE_NAME = 'nf-science\'s_cash';
 // Cache targets
 const urlsToCache = [
   './',
   './index.html',
+  '/style/m.css',
+  '/style/d.css',
+  '/fonts/Noto_Sans_JP/NotoSansJP-Medium.otf',
 ];
 
 self.addEventListener('install', (event) => {
