@@ -3,6 +3,7 @@ const CACHE_NAME = 'nf-science\'s_cash';
 const urlsToCache = [
   './',
   './index.html',
+  '/style/both.css',
   '/style/m.css',
   '/style/d.css',
   '/fonts/Noto_Sans_JP/NotoSansJP-Medium.otf',
