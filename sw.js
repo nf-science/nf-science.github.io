@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nf-science\'s_cash';
+const CACHE_NAME = 'cash';
 // Cache targets
 const urlsToCache = [
   './',
