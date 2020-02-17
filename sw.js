@@ -8,6 +8,7 @@ const urlsToCache = [
   './style/m.css',
   './style/d.css',
   './fonts/Noto_Sans_JP/NotoSansJP-Medium.otf',
+  'index.amp.html',
 ];
 
 self.addEventListener('install', (event) => {
